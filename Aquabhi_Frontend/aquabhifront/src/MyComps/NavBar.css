@@ -1,0 +1,19 @@
+.nav-list{
+    margin-top: 0.5px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color:blueviolet;
+    font-weight:bold;
+    list-style-type: none;
+   
+}
+
+.nav-item:hover{
+    color: red;
+    background-color: aliceblue;
+    text-decoration: underline;
+}
