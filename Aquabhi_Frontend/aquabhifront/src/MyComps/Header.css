@@ -1,0 +1,15 @@
+.header{
+    background-color: aqua;
+    color: purple;
+    margin-top: 0px;
+}
+
+.subhead{
+    margin-top: 0px;
+    color: purple;
+    background-color: aqua; 
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: -14px 2px 13px;
+    text-decoration: wavy;
+}
