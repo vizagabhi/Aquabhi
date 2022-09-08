@@ -12,8 +12,10 @@
    
 }
 
-.nav-item:hover{
+.active{
     color: red;
+    padding: 0px 5px;
     background-color: aliceblue;
+    border-radius: 25%;
     text-decoration: underline;
 }
