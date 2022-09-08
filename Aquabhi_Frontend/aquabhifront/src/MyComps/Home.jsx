@@ -1,8 +1,11 @@
 import React from 'react'
+import './Images/waterhome.jpg'
+import './Home.css'
 
 const Home = () => {
   return (
-    <div>This is my Home Page!!!</div>
+    <div className='img-container'><img src={require('./Images/waterhome.jpg')} alt="waterhome"  /></div>
+   
   )
 }
 
