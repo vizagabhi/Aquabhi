@@ -1,8 +1,8 @@
 import React from 'react'
 import NavBar from "./NavBar"
 import Home from './Home'
-import About from './About'
-import Contact from './Contact'
+import Services from './Services'
+import Subscription from './Subscription'
 import Login from './Login'
 import Register from './Register'
 import {Routes,Route} from 'react-router-dom'
@@ -18,8 +18,8 @@ const Header = () => {
      <NavBar/>
      <Routes>
         <Route path='/' element = {<Home/>}/>
-        <Route path='/about' element = {<About/>}/>
-        <Route path='/contact' element = {<Contact/>}/>
+        <Route path='/services' element = {<Services/>}/>
+        <Route path='/subscription' element = {<Subscription/>}/>
         <Route path='/login' element = {<Login/>}/>
         <Route path='/register' element = {<Register/>}/>
      </Routes>
