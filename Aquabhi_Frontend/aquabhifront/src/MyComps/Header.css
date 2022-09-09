@@ -1,3 +1,7 @@
+.head-container{
+    width: 100vw;
+}
+
 .header{
     background-color: aqua;
     color: purple;
