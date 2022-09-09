@@ -7,8 +7,9 @@
 }
 
 .intro{
+    width: 25vw;
+    margin-left: 10em;
     padding-top: 100px;
-    padding-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -26,6 +27,11 @@ button{
     background-color: blueviolet;
     border-style: none;
     border-radius: 15px;
+}
+
+button:hover{
+    transition: backgound-color 1s;
+    background-color: rgba(160, 68, 246, 0.83);
 }
 
 button a{
