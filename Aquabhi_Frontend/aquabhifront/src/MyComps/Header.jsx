@@ -10,7 +10,7 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <div>
+    <div className='head-container'>
         <div>
         <h1 className='header'>...AQUABHI...</h1>
         <p className="subhead">One-stop Solution for All your supply water need...</p>
